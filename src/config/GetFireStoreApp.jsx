@@ -1,16 +1,5 @@
-
 import { initializeApp } from "firebase/app";
 import { getFirestore } from "firebase/firestore";
-
-
-/* const firebaseConfig = {
-    apiKey: "AIzaSyAixkf0adeFk8dFMAJ1aifkSohVgm3kYa8",
-    authDomain: "walter-fernandez.firebaseapp.com",
-    projectId: "walter-fernandez",
-    storageBucket: "walter-fernandez.appspot.com",
-    messagingSenderId: "502129238841",
-    appId: "1:502129238841:web:a014d0efcd504010713ee8"
-}; */
 
 const firebaseConfig = {
 
@@ -29,9 +18,4 @@ const firebaseConfig = {
 };
 
 const app = initializeApp(firebaseConfig);
-
-/* export const getFireStoreApp = () => {
-    return app
-} */
-
 export const db = getFirestore(app);
