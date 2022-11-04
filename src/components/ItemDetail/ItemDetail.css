@@ -1,4 +1,3 @@
-/*vista mobile*/
 @media only screen and (min-width:0px) and (max-width:767px) {
     .itemDetail-img {
         width: 300px;
@@ -7,7 +6,7 @@
     }
 }
 
-/* vista entre desktop y mobile */
+
 @media only screen and (min-width:768px) and (max-width:1239px) {
     .itemDetail-img {
         width: 500px;
@@ -16,7 +15,7 @@
     }
 }
 
-/*vista desktop */
+
 @media only screen and (min-width:1240px) {
     .itemDetail-img {
         width: 500px;

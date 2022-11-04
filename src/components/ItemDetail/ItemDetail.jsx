@@ -10,7 +10,6 @@ function ItemDetail({ product }) {
 
     const { addToCart } = useContext(CartContext)
 
-    // Agregar al carrito
     const onAdd = (quantity) => {
         setGoToCart(true)
         addToCart({ ...product, quantity: quantity })

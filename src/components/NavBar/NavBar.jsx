@@ -12,7 +12,7 @@ const NavBar = ({ cartCount }) => {
                 <Container>
                     <Link to="/">
                         <Navbar.Brand>
-                            <h1 id='logo' width="100" height="100">Mi tienda</h1>
+                            <h1>Mi tienda</h1>
                         </Navbar.Brand>
                     </Link>
                     <Link className="cart-mobile" style={{ paddingRight: '2rem' }} to="/cart">

@@ -12,7 +12,7 @@
     }
 }
 
-/* vista entre desktop y mobile */
+
 @media only screen and (min-width:768px) and (max-width:1239px) {
     .loaderSecondaryContainerMobile {
         min-height: 75vh;
@@ -27,7 +27,7 @@
     }
 }
 
-/*vista desktop */
+
 @media only screen and (min-width:1240px) {
     .loaderSecondaryContainer {
         min-height: 60vh;
