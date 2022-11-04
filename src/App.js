@@ -20,12 +20,12 @@ function App() {
                         <Route
                             exact
                             path="/"
-                            element={<ItemListContainer greeting="Hola, Bienvenido a NG Games!" />}
+                            element={<ItemListContainer greeting="Hola, bienvenido a mi tienda!" />}
                         />
                         <Route
                             exact
                             path="/categoria/:idCategory"
-                            element={<ItemListContainer greeting="Hola, Bienvenido a NG Games!" />}
+                            element={<ItemListContainer greeting="Hola, bienvenido a mi tienda!" />}
                         />
                         <Route
                             exact

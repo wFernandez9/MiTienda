@@ -2,7 +2,6 @@ import { Link, NavLink } from 'react-router-dom'
 import Navbar from 'react-bootstrap/Navbar'
 import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
-import logo from '../../assets/img/logo.png'
 import CartWidget from '../Cart/CartWidget'
 import '../Cart/Cart.css'
 
@@ -13,13 +12,7 @@ const NavBar = ({ cartCount }) => {
                 <Container>
                     <Link to="/">
                         <Navbar.Brand>
-                            <img
-                                src={logo}
-                                width="100"
-                                height="100"
-                                className="d-inline-block align-top"
-                                alt="NGGames Logo"
-                            />
+                            <h1 id='logo' width="100" height="100">Mi tienda</h1>
                         </Navbar.Brand>
                     </Link>
                     <Link className="cart-mobile" style={{ paddingRight: '2rem' }} to="/cart">
